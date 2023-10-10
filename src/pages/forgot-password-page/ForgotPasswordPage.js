@@ -1,7 +1,7 @@
 import React from "react";
-import './LoginStyle.css';
+import './ForgotPasswordStyle.css';
 
-function LoginPage() {
+function ForgotPasswordPage() {
     return (
         <div>
             <div className="content">
@@ -9,18 +9,17 @@ function LoginPage() {
                     NOTES
                 </div>
                 <input className="input-form" type="email" placeholder="Email" />
-                <input className="input-form" type="password" placeholder="Password" />
                 <br />
                 <div className="center-item">
-                    <button className="button-form">Login</button>
+                    <button className="button-form">Reset Password</button>
                 </div>
             </div>
 
             <div className="footer">
-                <a href="/forgot-password">Forgot Password</a>
+                <a href="/login">Login</a>
                 <a href="/register">Register</a>
             </div>
         </div>
     );
 }
-export default LoginPage;
+export default ForgotPasswordPage;
