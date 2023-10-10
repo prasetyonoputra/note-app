@@ -1,0 +1,54 @@
+body {
+    background-color: #323232;
+    font-family: Alegreya Sans;
+}
+
+.container {
+    padding: 20px;
+    background-color: #14FFEC;
+    margin: auto;
+    margin-top: 50%;
+    border-radius: 10px;
+    width: 80%;
+}
+
+.header-form {
+    text-align: center;
+    font-family: "Anek Bangla";
+
+}
+
+.input-form {
+    width: 100%;
+    height: 45px;
+    margin: 5px 0 5px 0;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 8px;
+    border: 1px solid #372f2f3a;
+    padding: 0px 10px 0px 10px;
+    box-sizing: border-box;
+}
+
+.center-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-form {
+    width: 50%;
+    height: 40px;
+    margin-top: 10px;
+    font-family: "Alegreya Sans SC";
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #14FFEC;
+    background-color: #212121;
+    border-radius: 7px;
+
+}
