@@ -1,7 +1,16 @@
 import React from "react";
 import './LoginStyle.css';
+import { useNavigate } from "react-router-dom";
 
 function LoginPage() {
+    const navigate = useNavigate();
+
+    const loginSubmit = () => {
+        navigate("/home");
+    };
+
+
+
     return (
         <div>
             <div className="content">
@@ -12,7 +21,7 @@ function LoginPage() {
                 <input className="input-form" type="password" placeholder="Password" />
                 <br />
                 <div className="center-item">
-                    <button className="button-form">Login</button>
+                    <button className="button-form" onClick={loginSubmit}>Login</button>
                 </div>
             </div>
 

@@ -1,0 +1,28 @@
+div {
+    border: 1px solid blueviolet;
+}
+
+
+.note-container {
+    height: 30vw;
+    width: 44vw;
+    background-color: #D9D9D9;
+    border-radius: 15px;
+    box-sizing: border-box;
+    padding: 5px;
+    font-size: 20px;
+
+    margin-bottom: 15px;
+}
+
+.note-option {
+    float: right;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.title-note {
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+}
