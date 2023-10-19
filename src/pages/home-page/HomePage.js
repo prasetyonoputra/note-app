@@ -7,7 +7,7 @@ import peoplesLogo from '../../icons/icon-peoples.png';
 import homeLogo from '../../icons/icon-home.png';
 import optionLogo from '../../icons/icon-option.png';
 import notificationLogo from '../../icons/icon-notification.png';
-import NoteComponenet from "../../components/note-component/NoteComponent";
+import NoteComponent from "../../components/note-component/NoteComponent";
 
 function HomePage() {
     return (
@@ -22,12 +22,12 @@ function HomePage() {
 
             <div className="content-home">
                 <div className="content-flex-note">
-                    <NoteComponenet />
-                    <NoteComponenet />
-                    <NoteComponenet />
-                    <NoteComponenet />
-                    <NoteComponenet />
-                    <NoteComponenet />
+                    <NoteComponent />
+                    <NoteComponent />
+                    <NoteComponent />
+                    <NoteComponent />
+                    <NoteComponent />
+                    <NoteComponent />
                 </div>
             </div>
 
