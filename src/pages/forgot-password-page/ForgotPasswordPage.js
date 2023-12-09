@@ -2,6 +2,7 @@ import React from "react";
 import './ForgotPasswordStyle.css';
 
 function ForgotPasswordPage() {
+    console.log("Test 2")
     return (
         <div>
             <div className="content">
